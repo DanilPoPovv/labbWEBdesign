@@ -1,0 +1,50 @@
+body {
+    background-color: #00FF00; /* Зеленый фон всей страницы */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page {
+    display: flex;
+    background-color: #00FF00; /* Зеленый фон блока */
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 1;
+    color: #ffffff; /* Белый текст */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.freepik {
+    text-decoration: underline; /* Подчеркивание только для слова "Freepik" */
+}
+
+img {
+    max-width: 50%;
+    margin-left: 20px;
+}
+
+a.button {
+    background-color: #ffffff; /* Белая кнопка */
+    color: #000000; /* Черный текст на кнопке */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
